@@ -1,0 +1,22 @@
+VALOR: TIPOS PRIMITIVOS
+
+Exemplo:
+
+Quando se define uma variavel e atribui um valor a ela, essa variavel e o seu valor atribuido vao ficar guardados na
+memoria do computador.
+
+int a = 2;l
+
+Na memoria vai ter o nome da variavel (a) e o valor atribuido (2).
+
+REFERENCIA: OBJETOS
+
+Exemplo:
+
+Quando se cria um objeto e voce faz uma instancia desse objeto, esse objeto e o seu conteudo vao ficar guardados na
+memoria do computador, mas diferente do valor dos tipos primitivos o que se guarda na memoria é um valor de referencia
+da meomoria onde contem o objeto criado e suas informaçoes.
+
+Data d1 = new Data();
+
+Na memoria vai ter o nome do meu objeto (d1) e o seu valor de refencia da memoria (0x1234).
