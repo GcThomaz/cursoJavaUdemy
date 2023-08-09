@@ -1,0 +1,42 @@
+this: é usado para referenciar o atributo da classe.
+
+Exemplo:
+
+package Data;
+
+public class Data {
+
+    int dia;
+    int mes;
+    int ano;
+
+    public Data(int dia, int mes, int ano) { //Esses parametros vao ser recebidos pelo construtor. Note que os
+    parametros possuem os mesmos nomes que os atributos da classe.
+
+
+    /*Usamos o this aqui para especificar que o atributo dia da classe Data vai ter o parametro dia (do construtor)
+      atribuido a ele.*/
+
+        this.dia = dia;
+        this.mes = mes;
+        this.ano = ano;
+    }
+}
+
+this(): O método this vai servir para passar os parametros do construtor e chamar o método construtor. Observaçao: O método this() so pode ser
+utilizado como um construtor.
+
+Exemplo:
+
+package Data;
+
+public class Data {
+    int dia;
+    int mes;
+    int ano;
+
+    public Data() {
+        this(26, 07, 1999); -> this(dia, mes, ano);
+    }
+}
+

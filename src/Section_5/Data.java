@@ -12,7 +12,7 @@ public class Data {
     }
 
     public String dataFormatada() {
-
-        return String.format("%d / %d / %d", dia, mes, ano);
+        final String formato = "%d / %d / %d"; //Variavel local. Pode ser acessada somente pelo método.
+        return String.format(formato, dia, mes, ano);
     }
 }
