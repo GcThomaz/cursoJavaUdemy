@@ -1,0 +1,40 @@
+Array:
+
+    - É um elemento estatico, ou seja, tem tamanho fixo;
+    - É homogeneo. Se definir um array do tipo inteiro, todos os elementos do array vao ser do tipo inteiro.
+    - Array é um objeto. Por ser um objeto o array tem atributos e comportamentos relacionados a ele;
+
+    - Criando um array:
+
+        int [] a = new int [ x ]; -> x = Quantidade de elementos que vai ter dentro do array;
+        int [] [] b = new int [ x ] [ y ]; -> O array pode ter dentro dele outro array.
+        int [] c = { 1, 2, 3, 4}; -> O array pode ser criado e inicializado ao mesmo tempo. Obs.: O numero de elementos
+        inseridos na inicializaçao vai corresponder ao tamanho do array.
+
+        - Atribuindo valor a um elemento:
+
+        a [ 2 ] = 10; -> Significa que na posiçao do indice 2 vai ser armazenado o valor inteiro 10;
+
+    - Para imprimir os elementos do array no console é necessario importar a biblioteca java.util.Arrays;
+
+        Exemplo:
+
+        double [] notasAlunoA = new double[3]; //Criaçao de um Array
+                notasAlunoA [0] = 9.5;
+                notasAlunoA [1] = 8.5;
+                notasAlunoA [2] = 7.5;
+
+                System.out.println(notasAlunoA);
+
+        // Essa saida vai me gerar um codigo como: D@3fee733d e nao vai mostrar os valores contidos dentro de cada
+        elemento do array.
+
+                double [] notasAlunoA = new double[3]; //Criaçao de um Array
+                notasAlunoA [0] = 9.5;
+                notasAlunoA [1] = 8.5;
+                notasAlunoA [2] = 7.5;
+
+                System.out.println(Arrays.toString(notasAlunoA));
+            }
+        // Essa saida vai me gerar esse resultado: [9.5, 8.5, 7.5].
+
