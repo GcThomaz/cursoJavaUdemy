@@ -1,0 +1,17 @@
+SET:
+    - Nao ordenado;
+    - Nao indexado;
+    - Nao aceita repetiçao;
+LIST:
+    - Indexada;
+    - Aceita repetiçao;
+MAP:
+    - Chave / Valor;
+    - Chave nao aceita repetiçao;
+    - Valor aceita repetiçao;
+Queue:
+    - Implementa fila;
+    - First in / First out (FIFO);
+Stack:
+    - Implementa pilha (STACK);
+    - Last in / Last out (LIFO);
