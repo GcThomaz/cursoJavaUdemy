@@ -1,0 +1,6 @@
+SET:
+    - Pode ser heterogeneo;
+    - Pode ser homogeneo;
+    - Nao aceita Objetos duplicados;
+    - Pode ser ordenado;
+    - Nao é indexado.
