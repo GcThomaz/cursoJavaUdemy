@@ -1,0 +1,7 @@
+List:
+
+    - Pode ser heterogeneo;
+    - Pode ser homogeneo;
+    - Aceita objetos duplicados;
+    - É ordenado;
+    - É indexado.
