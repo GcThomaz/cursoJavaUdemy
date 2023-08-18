@@ -1,0 +1,5 @@
+Queue:
+
+    - .add() lançará uma exceção caso a fila esteja cheia.
+
+    - .offer() retorna falso caso a fila esteja cheia.
