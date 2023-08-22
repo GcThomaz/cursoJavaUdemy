@@ -1,0 +1,38 @@
+ # Polimorfismo
+
+    * Estatico (Sobrecarga):
+
+        - Uma classe que possui mais de um método com o mesmo nome, porem com atributos diferentes e que realizam açoes
+        diferentes.
+
+            - Exeplo:
+
+                void opa(String nome) {}
+                void opa(int idade) {}
+                void opa(double preço) {}
+
+    * Dinamico:
+
+        - Para ter o polimorfismo dinamico é preciso ter herança.
+
+            Exemplo:
+
+            public class Carro {}
+            public class Civic {}
+            public class Ferrari {}
+
+            Civic c = new Civic(); -> Manira padrao de instanciar um objeto;
+            Carro c = new Civic(); -> Instanciando um objeto de uma classe mae.
+            c = new Ferrari(); -> Alterando o tipo do objeto c. [Polimorfismo]
+
+        Como o objeto c foi instanciado da classe mae Carro esse objeto pode ter varias formas, ou seja, ele pode ser
+        um civic ou uma ferrari.
+        O polimorfismo pode ser aplicado tambem para os métodos.
+
+            Exemplo:
+
+            void estacionar(Civic c) {} -> Esta recebendo como parametro o tipo especifico Civic, ou seja, voce nao vai
+            conseguir introduzir um tipo Ferrari para o método.
+
+            void estacionar(Carro c) {} -> Nesse caso o método recebe como parametro a classe mae Carro, ou seja, voce
+            pode tanto passar um tipo Civic quanto um tipo Ferrari como parametro do método.
