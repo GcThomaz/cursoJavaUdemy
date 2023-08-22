@@ -1,0 +1,23 @@
+ # HERANÇA
+
+    Reuso de Codigo:
+
+        * Composiçao:
+
+            ... Tem um(a) ...
+
+            Exemplo:
+
+                - Carro é um motor;
+                - Carro tem portas;
+                - Casa tem uma cozinha.
+
+        * Herança:
+
+            ... é um(a) ...
+
+            Exemplo:
+
+                - Civic é um carro;
+                - Gato é um mamifero;
+                - Maça é uma fruta.
