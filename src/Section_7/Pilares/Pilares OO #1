@@ -1,0 +1,11 @@
+# ENCAPSULAMENTO:
+
+    - Modificadores de acesso:
+
+        * Public;
+        * Protected;
+        * Package default;
+        * Private.
+
+    - Objeto:
+        Capsula que contém atributos e métodos.
