@@ -2,10 +2,20 @@ package Section_7.ooHeranca.DesafioHeranca;
 
 public class Carro {
 
+    final int velocidadeMax;
     int velocidadeAtual;
+    int delta = 5;
+
+    Carro (int velocidadeMax) {
+        this.velocidadeMax = velocidadeMax;
+    }
 
     void acelerar() {
-        velocidadeAtual += 5;
+        if (velocidadeAtual + delta > velocidadeMax) {
+            velocidadeAtual = velocidadeMax;
+        } else {
+            velocidadeAtual += delta;
+        }
     }
 
     void frear() {
