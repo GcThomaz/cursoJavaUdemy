@@ -11,8 +11,8 @@ public class Pedro extends Ana {
         //formaDeFalar
         //todosSabem
 
-        System.out.println(segredo); //Mesmo morando na mesma casa, nao se pode ver o atributo private.
-        System.out.println(facoDentroDeCasa);
+        //System.out.println(segredo); //Mesmo morando na mesma casa, nao se pode ver o atributo private.
+        //System.out.println(facoDentroDeCasa);
         System.out.println(formaDeFalar);
         System.out.println(todosSabem);
     }
