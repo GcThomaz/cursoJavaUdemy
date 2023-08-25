@@ -1,0 +1,27 @@
+Nível Iniciante:
+
+Classe Pessoa: Crie uma classe chamada Pessoa com atributos como nome, idade e gênero. Crie métodos para definir e obter esses atributos.
+
+Conta Bancária: Crie uma classe ContaBancaria com atributos como saldo e número da conta. Implemente métodos para depositar, sacar e consultar saldo.
+
+Nível Intermediário:
+
+Herança e Polimorfismo: Crie uma hierarquia de classes com uma classe base "Veículo" e classes derivadas "Carro" e "Bicicleta". Cada uma deve ter métodos específicos.
+
+Loja Virtual: Crie classes para representar produtos e um carrinho de compras. Implemente métodos para adicionar produtos ao carrinho, calcular o total e finalizar a compra.
+
+Nível Avançado:
+
+Sistema Escolar: Crie classes para representar Alunos, Professores e Disciplinas em uma escola. Implemente um sistema para gerenciar matrículas, notas e informações relacionadas.
+
+Rede Social Simples: Crie classes para representar Usuários e Posts em uma rede social. Implemente funcionalidades como postar, curtir e comentar.
+
+Desafios:
+
+Jogo de Tabuleiro: Crie uma versão simplificada de um jogo de tabuleiro, como Xadrez ou Damas, usando classes para representar o tabuleiro, as peças e as regras do jogo.
+
+Sistema Bancário Avançado: Expanda o exercício da Conta Bancária para incluir diferentes tipos de contas (poupança, corrente, investimento) com funcionalidades específicas.
+
+Simulação de Tráfego: Crie classes para representar carros, semáforos e ruas em uma simulação de tráfego. Implemente um sistema que controla o fluxo de carros e a mudança dos semáforos.
+
+Gestão de Projetos: Crie classes para representar projetos, equipes e tarefas em um ambiente de gestão de projetos. Implemente métodos para atribuir tarefas, acompanhar o progresso e gerar relatórios.
